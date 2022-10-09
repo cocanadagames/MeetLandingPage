@@ -1,0 +1,615 @@
+
+/******************************** Main ********************************/
+.master{
+    display: flex;
+    flex-direction: column;
+}
+
+/******************************** Navbar ********************************/
+.container-fluid{
+    justify-content: center !important;
+}
+
+.navbar, .navbar-brand{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    margin-top: 80px;
+}
+
+/******************************** Main Banner ********************************/
+.MainBannerContainer{
+    /* background-color: beige;
+    border: 1px solid black;
+    box-sizing: border-box;    */
+
+    min-height: 358px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin-top:61px;
+}
+
+.container0{
+    display: none;
+}
+
+.container1, .container3{
+    /* background-color: aquamarine;
+    border: 1px solid black;
+    box-sizing: border-box;     */
+
+    width: 100px;
+    height: 303px;
+
+    flex-basis: 394px;
+}
+
+.container1{
+    margin-top: 0px;
+    margin-left: -32px;  
+}
+
+.container3{
+    margin-top: 54px; 
+    margin-right: -32px;   
+}
+
+.container2{
+    /* background-color: lightgreen;
+    border: 1px solid black;
+    box-sizing: border-box; */
+
+    margin: 54px 16px 0px 16px; 
+
+    width: 100px;
+    min-height: 304px;
+
+    flex-basis: 540px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.HeroHeading{ 
+    min-width: 150px;    
+    width: 445px;    
+   
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;    
+    line-height: 64px;
+    color: #28283D;
+}
+
+.HeroParagraph{        
+    max-width: 540px;    
+  
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px; 
+    color: #87879D;    
+}
+
+.HeroButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+
+.HeroButton1{
+    min-width: 193px;
+    height: 58px;   
+    margin-top: 32px;
+    margin-right: 8px;
+
+    background: #4D96A9;
+    border-radius: 29px;
+    border: none;
+
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.HeroButton1Version{
+    color: #8FE3F9;
+}
+
+
+.HeroButton2{
+    min-width: 139px;
+    height: 58px; 
+    margin-top: 32px;
+    margin-left: 8px;
+    
+    background: #855FB1;
+    border-radius: 29px;
+    border: none;
+
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+
+/******************************** Number 1 break ********************************/
+.NumberOne{
+    margin-top: 110px;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* background: lightcoral;
+    border: 1px solid black;
+    box-sizing: border-box; */
+}
+
+.VerticalLine{
+    border-left: 1px solid #87879D;
+    height: 84px;
+    opacity: 0.25;    
+}
+
+.Circle{
+    height: 56px;
+    width: 56px;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 50%;
+    position: relative;
+ }
+  
+.Number{ 
+    text-align: center;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 56px;
+
+    color: #87879D;
+    
+    width:56px !important;
+    position: absolute;
+}
+
+
+/******************************** Middle Images Container ********************************/
+.Middle4ImagesContainer{ 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ImageSettings{
+    border-radius: 8px;
+    min-width: 100px;  
+    max-width: 242px;    
+    height: auto;
+
+    margin: 0px 15px;
+}
+
+
+/******************************** Main Content ********************************/
+.MainContentAlignment{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 80px;
+}
+
+.MainContentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 540px;
+    height: 240px;
+    text-align: center;  
+}
+
+.MainContenHeading{
+    max-width: 275px;
+    margin-bottom: 16px;
+    text-align: center;
+
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    
+    color: #4D96A9;
+}
+
+.MainContenStatementBold{
+    max-width: 445px;
+    margin-bottom: 32px;
+    
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    /* or 110% */
+
+    text-align: center;
+
+    color: #28283D;
+}
+
+.MainContenParagraph{
+    max-width: 520px;
+    margin-bottom: 0px;
+
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;  
+
+    text-align: center;
+
+    color: #87879D;
+}
+
+/******************************** Footer Content ********************************/
+
+.FooterAlignment{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 72px;   
+}
+
+.NumberTwo{    
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 4; 
+}
+
+
+.CircleTwo{
+    height: 56px;
+    width: 56px;
+    background-color: #FAFAFA;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 50%;
+    position: relative;
+}
+
+.NumberTwoSpan{
+    text-align: center;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 56px;
+
+    color: #87879D; 
+
+    width:56px;
+    position: absolute;
+    z-index: 5;
+}
+
+.FooterMain{   
+    position: relative;
+    margin-top: -28px;
+    width: 100vw;
+    min-height: 308px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.FooterImage{
+    position: absolute;
+    z-index: 1;
+    opacity: 100%;
+    width: 100%;
+    height: 308px;
+    object-fit: cover;
+}
+
+.FooterBlueOverlay{
+    position: absolute;   
+    z-index: 2;
+    width: 100%;
+    height: 308px;
+    object-fit: cover;
+    background-color: #4D96A9;    
+    opacity: 80%;
+}
+
+
+.FooterContentAlignment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FooterContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    z-index: 10;
+    height: 308px;
+    width: 1110px;
+    margin: 0px 20px;
+}
+
+.FooterP1 , .FooterP2, .FooterB1{
+    margin:0px 8px;
+}
+
+.FooterP1{
+    max-width: 350px;
+
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+
+    color: #FAFAFA;
+}
+
+.FooterP2{
+    max-width: 350px;
+    min-width: 150px;
+
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px; 
+
+    color: #FAFAFA;
+}
+
+.FooterB1{
+    min-width: 193px;
+    height: 58px;
+
+    background: #855FB1;
+    color:#FFFFFF;
+    border-radius: 29px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+
+    border: none;
+}
+
+.FooterButton1Version{
+    color: #D9B8FF;
+}
+
+
+/* Hover State */
+.HeroButton1:hover{
+    background: #71C0D4;
+}
+
+.HeroButton2:hover{
+    background: #B18BDD;
+}
+
+.FooterB1:hover{
+    background: #B18BDD;
+}
+
+
+
+
+/******************************** Breakpoint at 1200 ********************************/
+@media (max-width: 1200px) { 
+    .MainBannerContainer{
+        /* background-color: beige;
+        border: 1px solid black;
+        box-sizing: border-box;   
+     */
+        min-height: 303px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container0{
+        display: block;
+    }
+
+    .container1{
+      display: none;    
+    }
+
+    .container2{
+        display: flex;
+    }
+
+    .container3{
+        display: none;    
+    }
+
+    .HeroHeading{
+        width: 339px;
+        font-size: 48px;
+        margin-bottom: 0px;
+    }
+
+    .HeroParagraph{
+        width: 457px;
+        font-size: 16px;
+        margin-top: 24px;      
+    }
+
+    .NumberOne{
+        margin-top: 80px;
+        margin-bottom: 67px;
+    }
+    
+    .MainContentAlignment{
+        margin-top: 48px;
+    }
+
+    .FooterAlignment{    
+        margin-top: 80px;
+    }
+    .MainContentContainer{
+        max-width: 650px;
+        height: auto;
+    }
+
+    .MainContenParagraph {
+        max-width: 650px;
+    }
+
+}
+
+
+/******************************** Breakpoint at 768 ********************************/
+@media (max-width: 768px) {  
+     .Middle4ImagesContainer{ 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .ImageSettings{
+        border-radius: 8px;
+        min-width: 100px;  
+        max-width: 160px;    
+        height: auto;
+    
+        margin: 8px 16px;
+    }
+    
+    .FooterMain{
+        min-height: 428px;
+    }
+    
+    .FooterImage, .FooterBlueOverlay{
+        min-height: 428px;
+    }
+
+    .FooterContentAlignment{
+        min-height: 428px;
+    }
+
+    .FooterContent{
+        height: 100%;  
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .FooterP1{
+        margin-top: 92px;
+    }
+
+    .FooterP2{
+        margin-top: 32px;
+        max-width: 580px;
+    }
+    .FooterB1{
+        margin-top: 40px;
+        margin-bottom: 66px;
+    }    
+}
+
+/******************************** Breakpoint at 375 ********************************/
+@media (max-width: 375px) { 
+
+    .container2{
+        margin-top: 48px;
+    }
+
+    .HeroHeading{
+        width: 280px;
+        height: 88px; 
+      
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .HeroParagraph{      
+        width: 327px;
+        height: 78px;
+       
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .HeroButton2{
+        margin-top: 16px;
+    }
+
+    .NumberOne{
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    .Middle4ImagesContainer{ 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .ImageSettings{
+        border-radius: 8px;
+        min-width: 100px;  
+        max-width: 150px;    
+        height: auto;
+    
+        margin: 8px 16px;
+    }
+    
+    .MainContentAlignment{
+        margin-top: 48px;
+    }
+
+    .FooterAlignment{    
+        margin-top: 80px;
+    }
+    .MainContentContainer{
+        max-width: 650px;
+        height: auto;
+    }
+
+    .MainContenParagraph {
+        max-width: 650px;
+    }
+}
